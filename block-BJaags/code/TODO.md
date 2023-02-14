@@ -14,7 +14,7 @@ function square(num) {
 let hundred = square(10);
 console.log(hundred);
 ```
-
+`![](./img/img-h-1.jpeg)`
 Create the execution context diagram of the following code line by line.
 
 ```js
@@ -26,7 +26,7 @@ var five = addFive(0);
 var ten = addFive(5);
 console.log(five, ten);
 ```
-
+`![](./img/img-h-2.jpeg)`
 Create the execution context diagram of the following code line by line.
 
 ```js
@@ -41,7 +41,7 @@ function multiplyArrayByN(arr, n) {
 
 let numbers = multiplyArrayByN(marks);
 ```
-
+`![](./img/img-h-3.jpeg)`
 Create the execution context diagram of the following code line by line.
 
 ```js
@@ -54,7 +54,7 @@ function counter(){
   return increment()
 }
 ```
-
+`![](./img/img-h-4.jpeg)`
 Create the execution context diagram of the following code line by line.
 
 ```js
@@ -67,3 +67,4 @@ let counter = function () {
   return increment();
 };
 ```
+`![](./img/img-h-5.jpeg)`
