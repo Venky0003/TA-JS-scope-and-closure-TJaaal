@@ -33,9 +33,18 @@ The returned function either accepts two parameter or one parameter.
 ```js
 function multipleCensor() {
   //  Your code goes here
+  let words = [];
   return function (...array){
     if(array.length === 1){
-      return array[0];
+      let quote = array[0];
+      words.forEach(pair =>{
+        quote = quote.replace(pair[0], pair[1])
+      });
+      return quote;
+    } else if(array.length === 2){
+      words.push(array);
+    } else {
+      alert('The number of parameters invalid');
     }
   }
 }
